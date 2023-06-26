@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mountains</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="coalition.css">
+    <link rel="icon" href="images/mountain.png">
+
+</head>
+<body>
+    <!-- section 1 -->
+    <div class="background1">
+        <div class="flex d-flex justify-content-center align-content-center justify-content-lg-around justify-content-sm-center">
+            <div class="logo m-3">
+                <img height="43px" width="43px" src="images/logo.svg" alt="">
+            </div>
+            <div class="nav m-3">
+                <a class="pe-5 fw-medium fst-italic" href="">01. HISTORY</a>
+                <a class="fw-medium fst-italic" href="">02. TEAM</a>
+            </div>
+        </div>
+    </div>
+    <!-- section 2 -->
+    <div class="navbar1 bg-light d-flex justify-content-center justify-content-around pt-3 pb-2">
+        <div class="left d-flex justify-content-center pe-1">
+            <img height="43px" width="43px" src="images/logo.svg" alt="">
+            <div class="text">
+                <p class="textl fw-medium">LOSANGELES</p>
+                <p class="textm fw-medium">MOUNTAINS</p>
+            </div>
+        </div>
+        <div class="right">
+            <a class="pe-5 fw-medium fst-italic" href="">01. HISTORY</a>
+            <a class="fw-medium fst-italic" href="">02. TEAM</a>
+        </div>
+    </div>
+    <!-- section 3 -->
+    <div class="background2">
+        <div class="move">
+            <div class="flex d-flex align-items-baseline">
+                <div class="number">
+                    <h1 class="numberhead">01.</h1>
+                </div>
+                <div class="numbertext">
+                    <p class="numbertext1">HISTORY</p>
+                </div>
+            </div>
+            <div class="para">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue. </p>
+            </div>
+        </div>
+        <div class="carouselbottom">
+            <div class="block">
+                <div id="carouselIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img height="240px" width="1500px" src="images/carousal5.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img height="240px" width="1500px" src="images/carousal3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img height="240px" width="1500px" src="images/carousal4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img height="240px" width="1500px" src="images/carousal3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav2">
+        <div class="move">
+            <div class="flex d-flex align-items-baseline">
+                <div class="number">
+                    <h1 class="numberhead">02.</h1>
+                </div>
+                <div class="numbertext">
+                    <p class="numbertext1">CLIMB</p>
+                </div>
+            </div>
+            <div class="para">
+                <p>
+                    Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue. 
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- bottom menu -->
+    <div class="nav3 d-flex align-items-center">
+        <div class="text1">
+            <button id="button1" onclick="mountain1()">MOUNTAIN1</button>
+        </div>
+        <div class="text2">
+            <button id="button2" onclick="mountain2()">MOUNTAIN2</button>
+        </div>
+    </div>
+    <div class="background3" id="background3">
+        <div class="block">
+            <p class="p1">SCHEDULE</p>
+            <div class="flexing">
+                <p class="p"><span class="span1">25 Nov 2016</span><span class="span2">Vestibulum viverra</span></p>
+                <p class="p"><span class="span1">28 Nov 2016</span><span class="span2">Vestibulum viverra</span></p>
+                <p class="p"><span class="span1">18 Dec 2016</span><span class="span2">Vestibulum viverra</span></p>
+                <p class="p"><span class="span1">7 Jan 2017</span><span class="span2">Vestibulum viverra</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="background4" id="background4">
+        <div class="block">
+            <p class="p1">SCHEDULE</p>
+            <div class="flexing">
+                <p class="p"><span class="span1">28 Nov 2016</span><span class="span2">Vestibulum viverra</span></p>
+                <p class="p"><span class="span1">25 Nov 2016</span><span class="span2">Vestibulum viverra</span></p>
+                <p class="p"><span class="span1">7 Dec 2016</span><span class="span2">Vestibulum viverra</span></p>
+                <p class="p"><span class="span1">18 Jan 2017</span><span class="span2">Vestibulum viverra</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="bottomnav d-flex justify-content-around align-items-center">
+        <div class="left d-flex justify-content-center pe-1">
+            <img height="43px" width="43px" src="images/logo.svg" alt="">
+            <div class="text">
+                <p class="textl fw-medium">LOSANGELES</p>
+                <p class="textm fw-medium">MOUNTAINS</p>
+            </div>
+        </div>
+        <div class="right">
+            <p>COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+        </div>
+    </div>
+
+    <script>
+        let button1 = document.getElementById("button1")
+        let button2 = document.getElementById("button2")
+        let div1 = document.getElementById("background3")
+        let div2 = document.getElementById("background4")
+        function mountain1()
+        {
+            button1.style.backgroundColor = "#b0b4be"
+            button1.style.color = "#414f6b"
+            button2.style.backgroundColor = "#414f6b"
+            button2.style.color = "#b0b4be"
+            div1.style.opacity = "1"
+            div2.style.opacity = "0"
+
+        }
+        function mountain2()
+        {
+            button2.style.backgroundColor = "#b0b4be"
+            button2.style.color = "#414f6b"
+            button1.style.backgroundColor = "#414f6b"
+            button1.style.color = "#b0b4be"
+            div1.style.opacity = "0"
+            div2.style.opacity = "1"
+        }
+    </script>
+</body>
+</html>

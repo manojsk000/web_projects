@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Xenara;
+    src: url('digital-7/digital-7\ \(mono\ italic\).ttf');
+}
+
+body{
+    position: relative;
+    top: 10vh;
+    background-color: teal;
+}
+.text h2{
+    text-align: center;
+    text-decoration:underline;
+    color: rgb(193,194,189);
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 0px 0px 10px black;
+}
+#number{
+    display: flex;
+    justify-content: center;
+}
+.block{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid rgba(111, 111, 111, 0.914);
+    border-radius: 10px;
+    padding: 2px;
+    background-color: rgb(83,86,91);
+}
+input{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgba(215, 215, 215, 0.8);
+    background-color: #949F8E;
+    padding: 1rem 0 1rem 0;
+    margin: .8rem .4rem .4rem;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-family: Xenara;
+    font-size: 35px;
+    font-weight: 500;
+}
+hr{
+    height: 2px;
+    background-color: rgb(225, 227, 222);
+    border-radius: 5px;
+}
+td{
+    border: 1px solid rgba(255, 255, 255, 0.696);
+    border-radius: 10px;
+    padding: 0;
+}
+td.color1{
+    background-color: rgb(193,194,189);
+    box-shadow: 0px 0px 2px rgb(225, 227, 222);
+}
+td.color1 button{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+td.color2{
+    background-color: rgb(133,135,134);
+    box-shadow: 0px 0px 2px rgb(225, 227, 222);
+}
+td.color2 button{
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+td.color3{
+    background-color: black;
+    box-shadow: 0px 0px 2px rgb(225, 227, 222) ;
+}
+td.color3 button{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+.color1,.color2,.color3{
+    padding-left: 4px;
+}
+i.bx{
+    font-size: 20px;
+    font-weight: 800;
+}
+button{
+    padding: 1.4rem 1.6rem;
+    margin: .2rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

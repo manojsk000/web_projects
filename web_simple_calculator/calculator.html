@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="icon" href="digital-7/calculator-outline.svg">
+    <title>Simple calculator</title>
+</head>
+<body>
+    <div class="text">
+        <h2>Simple Calculator</h2>
+    </div>
+    <div class="number" id="number">
+        <div class="block">
+            <table class="center" cellspacing="5px">
+                <tr>
+                    <input type="text" id="display" readonly> <!-- readonly will allow user to read but not to write any value inside the input tag -->
+                </tr>
+                <hr>
+                <tr>
+                    <td class="color1"><button onclick="clearScreen()">AC</button></td>
+                    <td class="color1"><button onclick="backSpace()"><i class="bx bx-left-arrow-alt"></i></button></td>
+                    <td class="color2"><button onclick="displayValue()">%</button></td>
+                    <td class="color2"><button onclick="displayValue()">/</button></td>
+                </tr>
+                <tr>
+                    <td class="color3"><button onclick="displayValue()">7</button></td>
+                    <td class="color3"><button onclick="displayValue()">8</button></td>
+                    <td class="color3"><button onclick="displayValue()">9</button></td>
+                    <td class="color2"><button onclick="displayValue()">*</button></td>
+                </tr>
+                <tr>
+                    <td class="color3"><button onclick="displayValue()">4</button></td>
+                    <td class="color3"><button onclick="displayValue()">5</button></td>
+                    <td class="color3"><button onclick="displayValue()">6</button></td>
+                    <td class="color2"><button onclick="displayValue()">-</button></td>
+                </tr>
+                <tr>
+                    <td class="color3"><button onclick="displayValue()">1</button></td>
+                    <td class="color3"><button onclick="displayValue()">2</button></td>
+                    <td class="color3"><button onclick="displayValue()">3</button></td>
+                    <td rowspan="2" class="color2"><button onclick="displayValue()">+</button></td>
+                </tr>
+                <tr>
+                    <td class="color3"><button onclick="displayValue()">0</button></td>
+                    <td class="color3"><button onclick="displayValue()">.</button></td>
+                    <td class="color2"><button onclick="calculateValue()">=</button></td>
+                </tr>
+        </table>
+        </div>
+    </div>
+    
+    <script src="calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,767 @@
+/* .backgroundimage{
+    background-image: url(images/navbackground.webp);
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+} */
+body{
+    scroll-behavior: smooth;
+}
+.gradienting{
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0.088),#000000e0);
+}
+.gradienting{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1; 
+}
+#navbar{
+    /*  */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    width: 100%;
+    transition: .5s;
+    z-index: 2;
+
+    /* position: sticky;
+    top: 0; */
+}
+.navbar1{
+    background-color: #820000;
+}
+/* .navbar1 .information1 ul li:hover::after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+} */
+#navbar .rightnav .searchbar button{
+    margin-top: -12px;
+    background-color:transparent;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    transition: .5s;
+}
+#navbar .rightnav .searchbar button:hover{
+    background-color: #b1040e;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 1px #820000;
+}
+
+/* Link bar */
+#linkbar1{
+    height: 50px;
+    transition: .5s;
+}
+.link{
+    color: white;
+}
+.linkbar1{
+    background-color: white;
+    color:#2E2D29;
+    transition: .5s;
+    box-shadow: 0px 3px 3px black;
+}
+.linkbar1 ul li:hover{
+    color: #820000;
+}
+#linkbar1 ul{
+    display: block;
+    text-align: center;
+    width: 1000px;
+    transform: translateX(250px);
+    padding-top: 10px;
+}
+/* Big text */
+.bigtext p{
+    font-size: 140px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 2px black;
+    position: fixed;
+    top: 40%;
+    left: 35%;
+    z-index: -1;
+}
+.image1 img{
+    position: fixed;
+    top: 0%;
+    z-index: -2;
+}
+.block1{
+    display: block;
+    height: 50px;
+    /* transform: translateY(590px);  */
+    background-color: #b1040e;
+    /* position: fixed; */
+    /*top: 700px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px; */
+    position: fixed;
+    top: 93.5%;
+    left: 0%;
+    right: 0%;
+    z-index: -1;
+}
+.block1 button img{
+    transition: .5s;
+}
+.block1 button img:hover{
+    transform: translateY(5px);
+}
+
+/* button to scroll upward instantly*/
+.buttonscrollup{
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    z-index: 3;
+}
+.buttonscrollup button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.buttonscrollup button img{
+    opacity: 0%;
+}
+
+/* scrollup tab */
+.onclickbutton{
+    outline: none;
+    border: none;
+}
+
+/* box containing texts */
+#block2{
+    display: block;
+    height: 700px;
+    /* transform: translateY(745px); */
+    margin-top: 745px;
+}
+.headingtext{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 50px;
+    text-shadow: 0px 0px 1px black;
+}
+.paragraphtext{
+    font-size: 35px;
+    font-weight: 300;
+    margin: 50px 60px;
+    text-align:center;
+    line-height: 60px;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.495);
+}
+#block2 button{
+    margin-left: 600px;
+    padding: 10px 80px;
+    background-color: #b1040e;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px black;
+}
+
+/* Campus news */
+.blocks{
+    overflow: hidden;
+}
+.i1{
+    transition: 0.3s;
+}
+.i1:hover{
+    transform: scale(1.1);
+}
+.i1:hover~div{
+    color: #006cb8;
+}
+.block3{
+    display: block;
+    height: fit-content;
+    background-color: rgb(219, 219, 219);
+}
+.block3 .campushead{
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+}
+.block3 .campuspara{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+}
+.grid-contaner .flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* margin: 30px 0px;*/
+    padding: 20px;
+}
+.campusimg1 img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+}
+.campusimg1 .fontabove{
+    display: block;
+    height: 356px;
+    width: 699px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 250px;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    margin-top: -356px;
+    /* transform: translateY(-356px); */
+    background: linear-gradient(transparent 0% , transparent 60% ,rgba(0, 0, 0, 0.689)  80%,black 100%);
+}
+.campusimg2, .campusimg3{
+    display: block;
+    height: 356px;
+    width: 333px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    transition: 0.5s;
+}
+.campusimg2 .blocks1, .campusimg3 .blocks1{
+    margin: 15px 15px;
+}
+.campusimg2 .blocks1 p, .campusimg3 .blocks1 p{
+   color: #820000;
+}
+.campusimg2 .blocks1 h3, .campusimg3 .blocks1 h3{
+    font-weight: 700;
+}
+/* .campusimg1 img:hover{
+    box-shadow: 2px 2px 5px black;
+} */
+.campusimg2:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.689);
+
+}
+.campusimg2 .blocks>img:hover, .campusimg2 .blocks .blocks1>h3:hover{
+    color: #006cb8;
+    scale: 1;
+    transition: .5s;
+    z-index: 1;
+}
+.campusimg3 .blocks>img:hover, .campusimg3 .blocks .blocks1>h3:hover{
+    color: #006cb8;
+    scale: 1;
+    transition: .5s;
+}
+.grid-contaner .button button{
+    margin: 50px 0px;
+    margin-left: 550px;
+    padding: 10px 120px;
+    background-color:#820000;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px black;
+}
+.grid-contaner .button button:hover{
+    background-color: #640000f3;
+}
+
+/* Academics */
+.academics{
+    display: block;
+    height: fit-content;
+    background-color: white;
+    padding-top: 60px;
+}
+.academics .block{
+    display: block;
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    color: black;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+.academics .block strong{
+    font-size: 50px;
+    font-weight: 800;
+}
+.academics .flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+.academics .flex .img1 , .academics .flex .img2 , .academics .flex .img3{
+    display: block;
+    height: fit-content;
+    width: 453px;
+    color: black;
+} 
+.academics .flex .img1 h3 , .academics .flex .img2 h3 , .academics .flex .img3 h3{
+    margin: 20px 0px;
+}
+.academics .flex .img1 p , .academics .flex .img2 p , .academics .flex .img3 p{
+    line-height: 30px;
+    font-size: 18px;
+}
+.academics .flex .img1 p a , .academics .flex .img2 p a , .academics .flex .img3 p a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #00548f;
+    transition: 1s;
+}
+.academics .flex .img1 p span , .academics .flex .img2 p span , .academics .flex .img3 p span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #00548f;
+    margin-left: 2px;
+    transition: 1s;
+}
+.academics .flex .img1 p a:hover , .academics .flex .img2 p a:hover , .academics .flex .img3 p a:hover{
+    text-decoration: underline;
+    font-size: 21px;
+    transform: translateX(2px);
+}
+.academics .ul{
+    display: block;
+    height: fit-content;
+    width: 1200px;
+    margin-left: 200px;
+}
+.academics .ul ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.academics .ul ul li{
+    list-style: none;
+}
+.academics .ul ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    margin:0px 15px;
+}
+.academics .ul ul li a:hover{
+    text-decoration: underline;
+}
+.academics .button button{
+    margin: 50px 0px;
+    margin-left: 550px;
+    padding: 10px 120px;
+    background-color:#820000;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px black;
+}
+.academics .button button:hover{
+    background-color: #640000f3;
+}
+
+
+/* Chrisford image */
+.chrisford{
+    background-color: white;
+    height: 850px;
+}
+                            /* animation control */
+
+.chrisford #animated .image{
+    display: block;
+    height: 800px;
+    width: 100%;
+    /* filter: blur(14px); */
+    opacity: 1;
+    transition: 1s;
+    filter: blur(0px);
+    /* width: auto;
+    left: 50%;
+    top: 50%; */
+    /* transform: translate3d(-50% , -50% , 0) scale(1); */
+}
+.chrisford #animated .images{
+    display: block;
+    height: 800px;
+    width: 100%;
+    opacity: 1;
+    filter: blur(14px);
+    /* width: auto;
+    left: 50%;
+    top: 50%; */
+    /* transform: translate3d(-50% , -50% , 0) scale(1); */
+}
+.chrisford #animated .content{
+    display: block;
+    height: 800px;
+    width: 800px;
+    margin-left: 400px;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 5.9em;
+    margin-top: -800px;
+    animation-name: opac;
+    animation-duration: 2s;
+}
+@keyframes opac {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.chrisford #animated .contents{
+    display: block;
+    height: 800px;
+    width: 800px;
+    margin-left: 400px;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 5.9em;
+    margin-top: -800px;
+    animation-name: opacity;
+    animation-duration: 2s;
+}
+@keyframes opacity {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.chrisford #animated #content img{
+    border-radius: 50%;
+}
+.chrisford #animated #content h3, .chrisford .animated #content p , .chrisford .animated #content a , .chrisford .animated #content a span{
+    text-shadow: 0px 0px 6px black;
+}
+.chrisford #animated #content p{
+    text-shadow: 0px 0px 6px black;
+}
+
+
+
+
+
+
+/* Research */
+.research{
+    display: block;
+    height: fit-content;
+    background-color: white;
+}
+.research .head .heading{
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.research .head .para{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+.research .head .flex{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.research .button{
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+.research .button button{
+    margin: 50px 0px;
+    margin-left: 550px;
+    padding: 10px 120px;
+    background-color:#820000;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px black;
+}
+.research .button button:hover{
+    background-color: #640000f3;
+}
+
+
+
+
+/* Upcoming events */
+
+.upcomingevents{
+    display: block;
+    height: fit-content;
+    background-color: gainsboro;
+    margin-top: -10px;
+}
+.upcomingevents .heading h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.upcomingevents .flex .block{
+    display: block;
+    height: 580px;
+    width: 320px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+.upcomingevents .flex .block .content{
+    transform: translateY(70px);
+}
+.upcomingevents .flex .block .content p{
+    color: #820000;
+}
+.upcomingevents .flex .block .content h3{
+    color: black;
+    transition: .5s;
+}
+.upcomingevents .flex .block .content h3:hover{
+    color: #006cb8;
+}
+.upcomingevents .flex .block .calenderblock{
+    display: block;
+    height: 80px;
+    width: 80px;
+    background-color: #2E2D29;
+    color: white;
+    box-shadow: 0px 0px 2px black;
+}
+.upcomingevents .flex .block #c1{
+    position: relative;
+    top: -35%;
+    left: 10%;
+}
+.upcomingevents .flex .block #c2{
+    position: relative;
+    top: -25%;
+    left: 10%;
+}
+.upcomingevents .flex .block #c3{
+    position: relative;
+    top: -30%;
+    left: 10%;
+}
+.upcomingevents .flex .block #c4{
+    position: relative;
+    top: -25%;
+    left: 10%;
+}
+
+.upcomingevents .flex .block .calenderblock p{
+    margin-bottom: -10px;
+    padding-top: 10px;
+}
+.upcomingevents .button button{
+    margin: 50px 0px;
+    margin-left: 600px;
+    padding: 10px 120px;
+    background-color:#820000;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px black;
+}
+.upcomingevents .button button:hover{
+    background-color: #640000f3;
+}
+
+/* Health Care */
+.healthcare{
+    display: block;
+    height: fit-content;
+    background-color: white;
+    padding-top: 60px;
+}
+.healthcare .block{
+    display: block;
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    color: black;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+.healthcare .block strong{
+    font-size: 50px;
+    font-weight: 800;
+}
+.healthcare .flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+.healthcare .flex .img1 , .healthcare .flex .img2 , .healthcare .flex .img3{
+    display: block;
+    height: fit-content;
+    width: 453px;
+    color: black;
+} 
+.healthcare .flex .img1 h3 , .healthcare .flex .img2 h3 , .healthcare .flex .img3 h3{
+    margin: 20px 0px;
+}
+.healthcare .flex .img1 p , .healthcare .flex .img2 p , .healthcare .flex .img3 p{
+    line-height: 30px;
+    font-size: 18px;
+}
+.healthcare .flex .img1 p a , .healthcare .flex .img2 p a , .healthcare .flex .img3 p a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #00548f;
+    transition: 1s;
+}
+.healthcare .flex .img1 p span , .healthcare .flex .img2 p span , .healthcare .flex .img3 p span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #00548f;
+    margin-left: 2px;
+    transition: 1s;
+}
+.healthcare .flex .img1 p a:hover , .healthcare .flex .img2 p a:hover , .healthcare .flex .img3 p a:hover{
+    text-decoration: underline;
+    font-size: 21px;
+    transform: translateX(2px);
+}
+.healthcare .ul{
+    display: block;
+    height: fit-content;
+    width: 1200px;
+    margin-left: 200px;
+}
+.healthcare .ul ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.healthcare .ul ul li{
+    list-style: none;
+}
+.healthcare .ul ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    margin:0px 15px;
+}
+.healthcare .ul ul li a:hover{
+    text-decoration: underline;
+}
+.healthcare .button button{
+    margin: 50px 0px;
+    margin-left: 550px;
+    padding: 10px 120px;
+    background-color:#820000;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px black;
+}
+.healthcare .button button:hover{
+    background-color: #640000f3;
+}
+
+/* Grayson */
+.grayson{
+    background-color: white;
+    height: 850px;
+}
+.grayson #animation .image{
+    display: block;
+    height: 800px;
+    width: 100%;
+    /* filter: blur(14px); */
+    opacity: 1;
+    transition: 1s;
+    filter: blur(0px);
+    /* width: auto;
+    left: 50%;
+    top: 50%; */
+    /* transform: translate3d(-50% , -50% , 0) scale(1); */
+}
+.grayson #animation .images{
+    display: block;
+    height: 800px;
+    width: 100%;
+    opacity: 1;
+    filter: blur(14px);
+    /* width: auto;
+    left: 50%;
+    top: 50%; */
+    /* transform: translate3d(-50% , -50% , 0) scale(1); */
+}
+.grayson #animation .content{
+    display: block;
+    height: 800px;
+    width: 800px;
+    margin-left: 400px;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 5.9em;
+    margin-top: -800px;
+    animation-name: opac;
+    animation-duration: 2s;
+}
+@keyframes opac {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.grayson #animation .contents{
+    display: block;
+    height: 800px;
+    width: 800px;
+    margin-left: 400px;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 5.9em;
+    margin-top: -800px;
+    animation-name: opacity;
+    animation-duration: 2s;
+}
+@keyframes opacity {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.grayson #animation #contenting img{
+    border-radius: 50%;
+}
+.grayson #animation #contenting h3, .chrisford .animation #contenting p , .chrisford .animation #contenting a , .chrisford .animation #contenting a span{
+    text-shadow: 0px 0px 6px black;
+}
+.grayson #animation #contenting p{
+    text-shadow: 0px 0px 6px black;
+}

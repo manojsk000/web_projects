@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #a4cbe4;
+}
+img{
+    width: 35vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: rgb(226, 226, 226); */
+    background: rgb(217, 245, 255);
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 30px rgb(199, 238, 255));
+}
+
+#secondhand{
+    background: linear-gradient(black 0%, black 55%, transparent 55%, transparent 100%);
+    width: .3%;
+    height: 45vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    clip-path: polygon(
+        5% 30%,
+        60% 0,
+        0% 90%,
+        0% 10%
+      )
+      /* clip: clip-source|basic-shape|margin-box|border-box|padding-box|content-box|fill-box|stroke-box|view-box|none|initial|inherit; */
+
+}
+
+#minutehand{
+    background: linear-gradient(black 0%, black 55%, transparent 55%, transparent 100%);
+    width: .3%;
+    height: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    clip-path: polygon(50% 0, 100% 50%, 0% 50%, 0 50%)
+}
+
+#hourhand{
+    background: linear-gradient(black 0%, black 55%, transparent 55%, transparent 100%);
+    width: .3%;
+    height: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    clip-path: polygon(50% 0, 100% 50%, 10% 50%, 0 50%)
+}
+
+#dot{
+    background-color: red;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+}
+
+@media (max-width: 1536px)
+{
+    #secondhand{
+        height: 40vh ;
+    }
+
+    #minutehand{
+        height: 36vh;
+    }
+
+    #hourhand{
+        height: 31vh;
+    }
+
+    #dot{
+        width: 1rem;
+        height: 1rem;
+    }
+
+}
+
+@media (max-width: 1440px)
+{
+    #secondhand{
+        height: 38vh;
+    }
+
+    #minutehand{
+        height: 32vh;
+    }
+
+    #hourhand{
+        height: 27vh;
+    }
+}
+
+@media (max-width: 1024px)
+{
+    #secondhand{
+        height: 17vh;
+    }
+
+    #minutehand{
+        height: 15vh;
+    }
+
+    #hourhand{
+        height: 10vh;
+    }
+
+    #dot{
+        width: .6rem;
+        height: .6rem;
+    }
+}
+
+@media (max-width: 800px)
+{
+    #minutehand{
+        height: 13vh;
+    }
+
+    #hourhand{
+        height: 8vh;
+    }
+
+    #dot{
+        width: .4rem;
+        height: .4rem;
+    }
+}
+
+@media (max-width: 400px)
+{
+    
+    #secondhand{
+        height: 11vh;
+    }
+
+    #minutehand{
+        height: 9vh;
+    }
+
+    #hourhand{
+        height: 5vh;
+    }
+
+    #dot{
+        width: .1rem;
+        height: .1rem;
+    }
+}
